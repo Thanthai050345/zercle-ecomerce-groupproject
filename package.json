@@ -1,0 +1,22 @@
+{
+  "name": "zercle-ecomerce-groupproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanthai050345/zercle-ecomerce-groupproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanthai050345/zercle-ecomerce-groupproject/issues"
+  },
+  "homepage": "https://github.com/Thanthai050345/zercle-ecomerce-groupproject#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
