@@ -1,8 +1,27 @@
 {
-    "name": "zercle-ecomerce-groupproject",
-    "version": "1.0.0",
-    "description": "",
-    "devDependencies": {
-        "tailwindcss": "^3.0.24"
-    }
+  "name": "zercle-ecomerce-groupproject",
+  "version": "1.0.0",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "postcss": "^8.4.13",
+    "postcss-cli": "^9.1.0"
+  },
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanthai050345/zercle-ecomerce-groupproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanthai050345/zercle-ecomerce-groupproject/issues"
+  },
+  "homepage": "https://github.com/Thanthai050345/zercle-ecomerce-groupproject#readme",
+  "description": ""
 }
