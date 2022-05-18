@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                    },
+                    fontFamily: {
+                        myFont: ['Prompt', sans - serif],
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="flex flex-row w-screen h-screen bg-white">
+        <nav class="w-full fixed flex justify-center bg-white">
+            <a href="/All"
+                class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">All</a>
+            <a href="/BLAZERS"
+                class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">BLAZERS</a>
+            <a href="/JACKETS"
+                class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">JACKETS</a>
+            <a href="/DRESSES"
+                class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">DRESSES</a>
+            <a href="/TROUSERS"
+                class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">TROUSERS</a>
+            <a href="/ACCESSORIES"
+                class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">ACCESSORIES</a>
+        </nav>
+
+            <div class="basis-2/5 bg-white flex-col flex justify-center items-center">
+                <h1 class="text-center text-gray-800 text-6xl font-bold p-5 underline">#forher</h1>
+                <!-- <div class="= w-70 h-70  bg-white p-4 relative "> -->
+                    <!-- <div class= " w-70 h-70 bg-sr "></div> -->
+                    <img class="h-80 w-72  "
+                        src="https://i.pinimg.com/564x/25/55/0f/25550f90f67bf4e1e8e7ca689b16f044.jpg">
+                    <div class="flex justify-center w-full w-50 h-18 ">
+                        <button class=" bg-white absolute bottom-1/2 text-sm font-bold p-2">SHOP NOW</button>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="basis3/5 flex flex-col ">
+                <h1 class="text-center text-3xl font-bold p-6 underline"></h1>
+            </div>
+    </div>
+
+</body>
+
+</html>
